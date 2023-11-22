@@ -1,0 +1,194 @@
+33.2808 	INFO 	#[ PsychoPy3 RuntimeInfoStart ]
+  #[[ PsychoPy ]] #---------
+    psychopyVersion: 2022.2.5
+    psychopyHaveExtRush: True
+  #[[ Experiment ]] #---------
+    experimentRunTime: 2023_08_11 16:42 (Year_Month_Day Hour:Min)
+    experimentRunTime.epoch: 1691743372
+    experimentScript: AB.py
+    experimentScript.digestSHA1: 88f208cfaa82b5e21d4aef2ece5be2a79cac86cb
+    experimentScript.directory: C:\Users\yuanyiqing\PycharmProjects\pythonProject\venv\attentional-blink-master
+  #[[ System ]] #---------
+    systemHaveInternetAccess: True
+    systemHostName: MSI
+    systemLocale: Chinese (Simplified)_China.936
+    systemMemFreeRAM: 7535.9765625
+    systemMemTotalRAM: 16227.72265625
+    systemPlatform: windowsversion=sys.getwindowsversion(major=10, minor=0, build=19045, platform=2, service_pack='')
+    systemRebooted: [?]
+    systemSec.pythonSSL: True
+    systemTimeNumpySD1000000_sec: 0.0039
+    systemUser: yuanyiqing
+    systemUserID: 1000
+    systemUserProcCount: 213
+    systemUserProcFlagged: explorer.exe
+    systemUsersCount: False
+  #[[ Window ]] #---------
+    windowWinType: pyglet
+    windowUnits: deg
+    windowSize_pix: [1920 1080]
+    windowScreen: 0
+    windowRgb: [-0.7 -0.7 -0.7]
+    windowRefreshTimeSD_ms: 0.114
+    windowRefreshTimeMedian_ms: 16.664
+    windowRefreshTimeAvg_ms: 16.667
+    windowPos_pix: (0, 0)
+    windowMonitor.name: testmonitor
+    windowMonitor.getWidth_cm: 34.5
+    windowMonitor.getDistance_cm: 57.0
+    windowMonitor.currentCalibName: 2023_04_29 15:10
+    windowIsFullScr: True
+  #[[ Python ]] #---------
+    pythonVersion: 3.8.10
+  #[[ OpenGL ]] #---------
+#[ PsychoPy3 RuntimeInfoEnd ]
+
+33.3534 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.3534 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.3885 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.3885 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.4026 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.4026 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.4114 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.4114 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.4137 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.4137 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.4165 	EXP 	Created sequence: random, trialTypes=15, nReps=8, seed=None
+33.7697 	EXP 	Created sequence: random, trialTypes=15, nReps=8, seed=None
+33.7702 	INFO 	numtrials=120 and each trialDurFrames=130 or 2166.666666666667 ms  task=T1T2
+33.7732 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.7732 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.7859 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.7859 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.7942 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.7942 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.7991 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.7991 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8033 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8033 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8077 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8077 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8126 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8126 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8173 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8173 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8212 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8212 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8257 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8257 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8305 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8305 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8348 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8348 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8397 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8397 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8446 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8446 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8487 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8487 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8530 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8531 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8571 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8571 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8613 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8613 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8653 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8653 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8699 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8699 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8738 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8738 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8779 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8780 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8822 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8822 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8870 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8870 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8910 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8910 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8952 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+33.8952 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+33.8995 	INFO 	Experiment will have 120 trials. Letters will be drawn with superposed noise of0.00%
+33.8995 	INFO 	Starting main (non-staircase) part of experiment
+33.8997 	EXP 	New trial (rep=0, index=0): {'cue1pos': 8, 'cue2lag': 10}
+36.9134 	EXP 	window1: recordFrameIntervals = False
+41.1482 	DATA 	KeyPress: u
+43.4447 	DATA 	Keypress: w
+43.9774 	EXP 	New trial (rep=0, index=1): {'cue1pos': 10, 'cue2lag': 10}
+47.0595 	EXP 	window1: recordFrameIntervals = False
+48.3611 	DATA 	Keypress: a
+48.7441 	DATA 	Keypress: m
+49.2777 	EXP 	New trial (rep=0, index=2): {'cue1pos': 10, 'cue2lag': 5}
+52.5928 	EXP 	window1: recordFrameIntervals = False
+54.1441 	DATA 	Keypress: r
+54.7944 	DATA 	Keypress: m
+55.3273 	EXP 	New trial (rep=0, index=3): {'cue1pos': 10, 'cue2lag': 1}
+58.4761 	EXP 	window1: recordFrameIntervals = False
+59.8941 	DATA 	Keypress: a
+60.3275 	DATA 	Keypress: t
+60.8603 	EXP 	New trial (rep=0, index=4): {'cue1pos': 8, 'cue2lag': 1}
+63.7934 	EXP 	window1: recordFrameIntervals = False
+65.8601 	DATA 	Keypress: z
+66.1273 	DATA 	Keypress: e
+66.6597 	EXP 	New trial (rep=0, index=5): {'cue1pos': 6, 'cue2lag': 2}
+69.9595 	EXP 	window1: recordFrameIntervals = False
+73.7960 	DATA 	Mouse: Left button down, pos=(194,309)
+73.9273 	DATA 	Mouse:  Left button up, pos=(194,309)
+73.9274 	DATA 	Mouse: Left button down, pos=(194,309)
+74.1281 	DATA 	Mouse:  Left button up, pos=(194,309)
+74.9276 	DATA 	Keypress: z
+75.2940 	DATA 	Keypress: d
+75.8282 	EXP 	New trial (rep=0, index=6): {'cue1pos': 6, 'cue2lag': 10}
+78.7264 	EXP 	window1: recordFrameIntervals = False
+79.6942 	DATA 	Keypress: x
+80.0611 	DATA 	Keypress: e
+80.5947 	EXP 	New trial (rep=0, index=7): {'cue1pos': 6, 'cue2lag': 5}
+83.7763 	EXP 	window1: recordFrameIntervals = False
+85.2610 	DATA 	Keypress: s
+85.5940 	DATA 	Keypress: l
+86.1267 	EXP 	New trial (rep=0, index=8): {'cue1pos': 6, 'cue2lag': 8}
+89.1764 	EXP 	window1: recordFrameIntervals = False
+90.1275 	DATA 	Keypress: o
+90.5278 	DATA 	Keypress: a
+91.0607 	EXP 	New trial (rep=0, index=9): {'cue1pos': 10, 'cue2lag': 8}
+94.1264 	EXP 	window1: recordFrameIntervals = False
+95.3942 	DATA 	Keypress: s
+95.8443 	DATA 	Keypress: b
+96.3771 	EXP 	New trial (rep=0, index=10): {'cue1pos': 8, 'cue2lag': 2}
+99.6597 	EXP 	window1: recordFrameIntervals = False
+100.9275 	DATA 	Keypress: z
+101.2274 	DATA 	Keypress: f
+101.7609 	EXP 	New trial (rep=0, index=11): {'cue1pos': 10, 'cue2lag': 2}
+104.9098 	EXP 	window1: recordFrameIntervals = False
+105.7278 	DATA 	Keypress: x
+105.9779 	DATA 	Keypress: s
+106.5105 	EXP 	New trial (rep=0, index=12): {'cue1pos': 6, 'cue2lag': 1}
+109.6431 	EXP 	window1: recordFrameIntervals = False
+110.9952 	DATA 	Keypress: s
+111.1943 	DATA 	Keypress: z
+111.7273 	EXP 	New trial (rep=0, index=13): {'cue1pos': 8, 'cue2lag': 5}
+114.7098 	EXP 	window1: recordFrameIntervals = False
+115.7442 	DATA 	Keypress: s
+116.4113 	DATA 	Keypress: c
+116.9447 	EXP 	New trial (rep=0, index=14): {'cue1pos': 8, 'cue2lag': 8}
+120.0599 	EXP 	window1: recordFrameIntervals = False
+121.2776 	DATA 	Keypress: a
+121.5624 	DATA 	Keypress: d
+122.0944 	EXP 	New trial (rep=1, index=0): {'cue1pos': 6, 'cue2lag': 5}
+124.9598 	EXP 	window1: recordFrameIntervals = False
+125.5445 	DATA 	Keypress: d
+125.7945 	DATA 	Keypress: w
+126.3278 	EXP 	New trial (rep=1, index=1): {'cue1pos': 10, 'cue2lag': 10}
+129.6432 	EXP 	window1: recordFrameIntervals = False
+131.0620 	DATA 	Keypress: x
+131.5620 	DATA 	Keypress: k
+132.0938 	EXP 	New trial (rep=1, index=2): {'cue1pos': 8, 'cue2lag': 1}
+134.9600 	EXP 	window1: recordFrameIntervals = False
+135.5938 	DATA 	Keypress: s
+135.8113 	DATA 	Keypress: w
+136.3441 	EXP 	New trial (rep=1, index=3): {'cue1pos': 8, 'cue2lag': 10}
+139.2100 	EXP 	window1: recordFrameIntervals = False
+142.3448 	DATA 	Keypress: escape
+142.3769 	INFO 	Finishing at 16:44 on 11 Aug 2023
+142.3769 	ERROR 	user aborted experiment on keypress with trials done=18 of 121
+142.4938 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,367 @@
+38.8540 	ERROR 	Error in handleLineEditChange: inputFieldName=Trials per condition (default=8):, type=<class 'int'>, value=, error=invalid literal for int() with base 10: ''
+70.5991 	INFO 	#[ PsychoPy3 RuntimeInfoStart ]
+  #[[ PsychoPy ]] #---------
+    psychopyVersion: 2022.2.5
+    psychopyHaveExtRush: True
+  #[[ Experiment ]] #---------
+    experimentRunTime: 2023_08_12 14:36 (Year_Month_Day Hour:Min)
+    experimentRunTime.epoch: 1691822196
+    experimentScript: AB.py
+    experimentScript.digestSHA1: 3efc9fecbf2a73001bc4c784107504bf61460fca
+    experimentScript.directory: C:\Users\yuanyiqing\PycharmProjects\pythonProject\venv\attentional-blink-master
+  #[[ System ]] #---------
+    systemHaveInternetAccess: True
+    systemHostName: MSI
+    systemLocale: Chinese (Simplified)_China.936
+    systemMemFreeRAM: 7719.22265625
+    systemMemTotalRAM: 16227.72265625
+    systemPlatform: windowsversion=sys.getwindowsversion(major=10, minor=0, build=19045, platform=2, service_pack='')
+    systemRebooted: [?]
+    systemSec.pythonSSL: True
+    systemTimeNumpySD1000000_sec: 0.0042
+    systemUser: yuanyiqing
+    systemUserID: 1000
+    systemUserProcCount: 235
+    systemUserProcFlagged: explorer.exe
+    systemUsersCount: False
+  #[[ Window ]] #---------
+    windowWinType: pyglet
+    windowUnits: deg
+    windowSize_pix: [1920 1080]
+    windowScreen: 0
+    windowRgb: [-0.7 -0.7 -0.7]
+    windowRefreshTimeSD_ms: 0.117
+    windowRefreshTimeMedian_ms: 16.667
+    windowRefreshTimeAvg_ms: 16.667
+    windowPos_pix: (0, 0)
+    windowMonitor.name: testmonitor
+    windowMonitor.getWidth_cm: 34.5
+    windowMonitor.getDistance_cm: 57.0
+    windowMonitor.currentCalibName: 2023_04_29 15:10
+    windowIsFullScr: True
+  #[[ Python ]] #---------
+    pythonVersion: 3.8.10
+  #[[ OpenGL ]] #---------
+#[ PsychoPy3 RuntimeInfoEnd ]
+
+70.8042 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+70.8042 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+70.8506 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+70.8506 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+70.8654 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+70.8654 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+70.8780 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+70.8780 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+70.8804 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+70.8804 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+70.8838 	EXP 	Created sequence: random, trialTypes=15, nReps=4, seed=None
+71.2511 	EXP 	Created sequence: random, trialTypes=15, nReps=4, seed=None
+71.2517 	INFO 	numtrials=60 and each trialDurFrames=130 or 2166.666666666667 ms  task=T1T2
+71.2609 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2609 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.2741 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2741 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.2828 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2828 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.2881 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2882 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.2924 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2924 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.2968 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.2969 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3017 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3017 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3068 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3068 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3107 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3107 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3151 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3152 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3199 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3199 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3241 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3241 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3286 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3287 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3339 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3339 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3378 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3378 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3422 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3422 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3462 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3462 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3505 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3506 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3547 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3547 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3590 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3590 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3630 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3630 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3673 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3673 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3716 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3716 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3764 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3764 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3806 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3806 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3851 	WARNING 	TextStim.alignVert is deprecated. Use the anchorVert attribute instead
+71.3851 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+71.3892 	INFO 	Experiment will have 60 trials. Letters will be drawn with superposed noise of0.00%
+71.3892 	INFO 	Starting main (non-staircase) part of experiment
+71.3894 	EXP 	New trial (rep=0, index=0): {'cue1pos': 6, 'cue2lag': 10}
+74.5818 	EXP 	window1: recordFrameIntervals = False
+75.5831 	DATA 	Keypress: g
+76.4500 	DATA 	Keypress: b
+76.9837 	EXP 	New trial (rep=0, index=1): {'cue1pos': 10, 'cue2lag': 8}
+80.2489 	EXP 	window1: recordFrameIntervals = False
+81.1013 	DATA 	Keypress: o
+81.8662 	DATA 	Keypress: a
+82.3996 	EXP 	New trial (rep=0, index=2): {'cue1pos': 10, 'cue2lag': 5}
+85.4819 	EXP 	window1: recordFrameIntervals = False
+86.5663 	DATA 	Keypress: h
+87.4162 	DATA 	Keypress: w
+87.9494 	EXP 	New trial (rep=0, index=3): {'cue1pos': 10, 'cue2lag': 10}
+91.1153 	EXP 	window1: recordFrameIntervals = False
+91.9344 	DATA 	Keypress: i
+92.6330 	DATA 	Keypress: m
+93.1668 	EXP 	New trial (rep=0, index=4): {'cue1pos': 10, 'cue2lag': 1}
+96.3320 	EXP 	window1: recordFrameIntervals = False
+96.9830 	DATA 	Keypress: a
+97.6680 	DATA 	Keypress: g
+98.1999 	EXP 	New trial (rep=0, index=5): {'cue1pos': 8, 'cue2lag': 1}
+101.1153 	EXP 	window1: recordFrameIntervals = False
+102.1837 	DATA 	Keypress: r
+102.9001 	DATA 	Keypress: x
+103.4329 	EXP 	New trial (rep=0, index=6): {'cue1pos': 6, 'cue2lag': 5}
+106.5820 	EXP 	window1: recordFrameIntervals = False
+107.3163 	DATA 	Keypress: h
+107.9175 	DATA 	Keypress: w
+108.4498 	EXP 	New trial (rep=0, index=7): {'cue1pos': 6, 'cue2lag': 2}
+111.4320 	EXP 	window1: recordFrameIntervals = False
+113.0339 	DATA 	Keypress: a
+113.4998 	DATA 	Keypress: v
+114.0330 	EXP 	New trial (rep=0, index=8): {'cue1pos': 8, 'cue2lag': 2}
+117.1654 	EXP 	window1: recordFrameIntervals = False
+118.2501 	DATA 	Keypress: d
+118.8498 	DATA 	Keypress: o
+119.3828 	EXP 	New trial (rep=0, index=9): {'cue1pos': 6, 'cue2lag': 1}
+122.5490 	EXP 	window1: recordFrameIntervals = False
+124.5508 	DATA 	Keypress: e
+125.0502 	DATA 	Keypress: f
+125.5822 	EXP 	New trial (rep=0, index=10): {'cue1pos': 8, 'cue2lag': 5}
+128.6321 	EXP 	window1: recordFrameIntervals = False
+129.2665 	DATA 	Keypress: i
+129.9999 	DATA 	Keypress: s
+130.5165 	EXP 	New trial (rep=0, index=11): {'cue1pos': 10, 'cue2lag': 2}
+133.5489 	EXP 	window1: recordFrameIntervals = False
+135.3174 	DATA 	Keypress: u
+136.0833 	DATA 	Keypress: v
+136.6163 	EXP 	New trial (rep=0, index=12): {'cue1pos': 8, 'cue2lag': 8}
+139.8322 	EXP 	window1: recordFrameIntervals = False
+140.6340 	DATA 	Keypress: k
+141.2337 	DATA 	Keypress: o
+141.7659 	EXP 	New trial (rep=0, index=13): {'cue1pos': 8, 'cue2lag': 10}
+144.9656 	EXP 	window1: recordFrameIntervals = False
+145.9174 	DATA 	Keypress: h
+146.4344 	DATA 	Keypress: q
+146.9665 	EXP 	New trial (rep=0, index=14): {'cue1pos': 6, 'cue2lag': 8}
+150.0156 	EXP 	window1: recordFrameIntervals = False
+150.7836 	DATA 	Keypress: k
+151.3842 	DATA 	Keypress: d
+151.9167 	EXP 	New trial (rep=1, index=0): {'cue1pos': 6, 'cue2lag': 1}
+155.2323 	EXP 	window1: recordFrameIntervals = False
+156.3671 	DATA 	Keypress: s
+156.9504 	DATA 	Keypress: r
+157.4833 	EXP 	New trial (rep=1, index=1): {'cue1pos': 10, 'cue2lag': 2}
+160.5822 	EXP 	window1: recordFrameIntervals = False
+161.4019 	DATA 	Keypress: a
+161.9333 	DATA 	Keypress: k
+162.4665 	EXP 	New trial (rep=1, index=2): {'cue1pos': 6, 'cue2lag': 2}
+165.7490 	EXP 	window1: recordFrameIntervals = False
+167.1834 	DATA 	Keypress: m
+167.7006 	DATA 	Keypress: u
+168.2327 	EXP 	New trial (rep=1, index=3): {'cue1pos': 6, 'cue2lag': 8}
+171.4990 	EXP 	window1: recordFrameIntervals = False
+172.4671 	DATA 	Keypress: b
+173.0504 	DATA 	Keypress: t
+173.5834 	EXP 	New trial (rep=1, index=4): {'cue1pos': 8, 'cue2lag': 1}
+176.7490 	EXP 	window1: recordFrameIntervals = False
+177.7502 	DATA 	Keypress: t
+178.3669 	DATA 	Keypress: d
+178.9005 	EXP 	New trial (rep=1, index=5): {'cue1pos': 10, 'cue2lag': 8}
+181.8490 	EXP 	window1: recordFrameIntervals = False
+182.9672 	DATA 	Keypress: w
+183.4839 	DATA 	Keypress: f
+184.0165 	EXP 	New trial (rep=1, index=6): {'cue1pos': 8, 'cue2lag': 5}
+186.9658 	EXP 	window1: recordFrameIntervals = False
+187.9162 	DATA 	Keypress: p
+188.5172 	DATA 	Keypress: v
+189.0505 	EXP 	New trial (rep=1, index=7): {'cue1pos': 8, 'cue2lag': 2}
+192.2991 	EXP 	window1: recordFrameIntervals = False
+192.9836 	DATA 	Keypress: a
+193.5501 	DATA 	Keypress: d
+194.0825 	EXP 	New trial (rep=1, index=8): {'cue1pos': 8, 'cue2lag': 8}
+196.9991 	EXP 	window1: recordFrameIntervals = False
+197.4504 	DATA 	Keypress: z
+197.9675 	DATA 	Keypress: a
+198.4998 	EXP 	New trial (rep=1, index=9): {'cue1pos': 6, 'cue2lag': 5}
+201.4991 	EXP 	window1: recordFrameIntervals = False
+202.3170 	DATA 	Keypress: h
+202.8671 	DATA 	Keypress: c
+203.4001 	EXP 	New trial (rep=1, index=10): {'cue1pos': 10, 'cue2lag': 5}
+206.6658 	EXP 	window1: recordFrameIntervals = False
+207.6181 	DATA 	Keypress: h
+208.3173 	DATA 	Keypress: k
+208.8503 	EXP 	New trial (rep=1, index=11): {'cue1pos': 6, 'cue2lag': 10}
+211.8326 	EXP 	window1: recordFrameIntervals = False
+213.0849 	DATA 	Keypress: v
+213.8338 	DATA 	Keypress: d
+214.3669 	EXP 	New trial (rep=1, index=12): {'cue1pos': 10, 'cue2lag': 1}
+217.2991 	EXP 	window1: recordFrameIntervals = False
+218.3171 	DATA 	Keypress: w
+219.2339 	DATA 	Keypress: o
+219.7675 	EXP 	New trial (rep=1, index=13): {'cue1pos': 8, 'cue2lag': 10}
+222.7326 	EXP 	window1: recordFrameIntervals = False
+223.7671 	DATA 	Keypress: j
+225.2174 	DATA 	Keypress: t
+225.7508 	EXP 	New trial (rep=1, index=14): {'cue1pos': 10, 'cue2lag': 10}
+228.8492 	EXP 	window1: recordFrameIntervals = False
+229.7508 	DATA 	Keypress: b
+230.3830 	DATA 	Keypress: p
+230.9005 	EXP 	New trial (rep=2, index=0): {'cue1pos': 8, 'cue2lag': 2}
+234.0993 	EXP 	window1: recordFrameIntervals = False
+234.7829 	DATA 	Keypress: a
+235.4508 	DATA 	Keypress: w
+387.6119 	DATA 	Keypress: space
+388.0117 	EXP 	New trial (rep=2, index=1): {'cue1pos': 10, 'cue2lag': 2}
+391.2168 	EXP 	window1: recordFrameIntervals = False
+391.9015 	DATA 	Keypress: w
+392.4185 	DATA 	Keypress: a
+392.9510 	EXP 	New trial (rep=2, index=2): {'cue1pos': 8, 'cue2lag': 5}
+395.9335 	EXP 	window1: recordFrameIntervals = False
+396.4360 	DATA 	Keypress: o
+396.9682 	DATA 	Keypress: g
+397.5016 	EXP 	New trial (rep=2, index=3): {'cue1pos': 6, 'cue2lag': 10}
+400.5174 	EXP 	window1: recordFrameIntervals = False
+401.2014 	DATA 	Keypress: z
+402.3849 	DATA 	Keypress: f
+402.9182 	EXP 	New trial (rep=2, index=4): {'cue1pos': 6, 'cue2lag': 8}
+406.1502 	EXP 	window1: recordFrameIntervals = False
+406.5846 	DATA 	Keypress: d
+407.1017 	DATA 	Keypress: i
+407.6338 	EXP 	New trial (rep=2, index=5): {'cue1pos': 6, 'cue2lag': 1}
+410.8836 	EXP 	window1: recordFrameIntervals = False
+411.7524 	DATA 	Keypress: v
+412.4014 	DATA 	Keypress: n
+412.9351 	EXP 	New trial (rep=2, index=6): {'cue1pos': 10, 'cue2lag': 8}
+416.2170 	EXP 	window1: recordFrameIntervals = False
+416.7690 	DATA 	Keypress: x
+417.2514 	DATA 	Keypress: m
+417.7847 	EXP 	New trial (rep=2, index=7): {'cue1pos': 8, 'cue2lag': 10}
+420.8003 	EXP 	window1: recordFrameIntervals = False
+421.6354 	DATA 	Keypress: t
+422.1181 	DATA 	Keypress: j
+422.6517 	EXP 	New trial (rep=2, index=8): {'cue1pos': 8, 'cue2lag': 8}
+425.5171 	EXP 	window1: recordFrameIntervals = False
+426.2848 	DATA 	Keypress: p
+426.7841 	DATA 	Keypress: g
+427.3010 	EXP 	New trial (rep=2, index=9): {'cue1pos': 8, 'cue2lag': 1}
+430.2503 	EXP 	window1: recordFrameIntervals = False
+430.9182 	DATA 	Keypress: a
+431.7187 	DATA 	Keypress: m
+432.2514 	EXP 	New trial (rep=2, index=10): {'cue1pos': 6, 'cue2lag': 5}
+435.5337 	EXP 	window1: recordFrameIntervals = False
+436.4018 	DATA 	Keypress: j
+437.0194 	DATA 	Keypress: n
+437.5513 	EXP 	New trial (rep=2, index=11): {'cue1pos': 10, 'cue2lag': 10}
+440.4337 	EXP 	window1: recordFrameIntervals = False
+441.2175 	DATA 	Keypress: m
+441.6523 	DATA 	Keypress: z
+442.1848 	EXP 	New trial (rep=2, index=12): {'cue1pos': 10, 'cue2lag': 5}
+445.2837 	EXP 	window1: recordFrameIntervals = False
+446.4682 	DATA 	Keypress: j
+449.0518 	DATA 	Keypress: m
+449.5849 	EXP 	New trial (rep=2, index=13): {'cue1pos': 10, 'cue2lag': 1}
+452.6003 	EXP 	window1: recordFrameIntervals = False
+453.4017 	DATA 	Keypress: r
+453.8015 	DATA 	Keypress: m
+454.3349 	EXP 	New trial (rep=2, index=14): {'cue1pos': 6, 'cue2lag': 2}
+457.5671 	EXP 	window1: recordFrameIntervals = False
+458.0852 	DATA 	Keypress: q
+458.5515 	DATA 	Keypress: o
+459.0843 	EXP 	New trial (rep=3, index=0): {'cue1pos': 10, 'cue2lag': 2}
+462.0005 	EXP 	window1: recordFrameIntervals = False
+462.6359 	DATA 	Keypress: w
+463.0527 	DATA 	Keypress: j
+463.5852 	EXP 	New trial (rep=3, index=1): {'cue1pos': 6, 'cue2lag': 8}
+466.9171 	EXP 	window1: recordFrameIntervals = False
+467.6349 	DATA 	Keypress: o
+468.3349 	DATA 	Keypress: m
+468.8678 	EXP 	New trial (rep=3, index=2): {'cue1pos': 6, 'cue2lag': 5}
+471.7172 	EXP 	window1: recordFrameIntervals = False
+472.8699 	DATA 	Keypress: b
+475.4518 	DATA 	Keypress: h
+475.9846 	EXP 	New trial (rep=3, index=3): {'cue1pos': 8, 'cue2lag': 1}
+478.9672 	EXP 	window1: recordFrameIntervals = False
+480.3183 	DATA 	Keypress: b
+480.6860 	DATA 	Keypress: f
+481.2181 	EXP 	New trial (rep=3, index=4): {'cue1pos': 8, 'cue2lag': 2}
+484.4339 	EXP 	window1: recordFrameIntervals = False
+485.7561 	DATA 	Mouse: Left button down, pos=(0,1)
+485.9681 	DATA 	Mouse:  Left button up, pos=(0,1)
+486.2520 	DATA 	Keypress: d
+486.6856 	DATA 	Keypress: r
+487.2173 	EXP 	New trial (rep=3, index=5): {'cue1pos': 8, 'cue2lag': 5}
+490.2005 	EXP 	window1: recordFrameIntervals = False
+491.2528 	DATA 	Keypress: o
+491.8684 	DATA 	Keypress: v
+492.4007 	EXP 	New trial (rep=3, index=6): {'cue1pos': 8, 'cue2lag': 10}
+495.6506 	EXP 	window1: recordFrameIntervals = False
+496.8352 	DATA 	Keypress: b
+497.1859 	DATA 	Keypress: c
+497.7181 	EXP 	New trial (rep=3, index=7): {'cue1pos': 6, 'cue2lag': 10}
+500.7673 	EXP 	window1: recordFrameIntervals = False
+502.0354 	DATA 	Keypress: k
+503.2188 	DATA 	Keypress: v
+503.7523 	EXP 	New trial (rep=3, index=8): {'cue1pos': 10, 'cue2lag': 5}
+506.6340 	EXP 	window1: recordFrameIntervals = False
+507.3019 	DATA 	Keypress: r
+507.7677 	DATA 	Keypress: d
+508.2856 	EXP 	New trial (rep=3, index=9): {'cue1pos': 6, 'cue2lag': 2}
+511.6007 	EXP 	window1: recordFrameIntervals = False
+512.3352 	DATA 	Keypress: o
+512.9354 	DATA 	Keypress: q
+513.4674 	EXP 	New trial (rep=3, index=10): {'cue1pos': 10, 'cue2lag': 1}
+516.7007 	EXP 	window1: recordFrameIntervals = False
+517.8020 	DATA 	Keypress: p
+518.2190 	DATA 	Keypress: f
+518.7520 	EXP 	New trial (rep=3, index=11): {'cue1pos': 10, 'cue2lag': 10}
+522.0174 	EXP 	window1: recordFrameIntervals = False
+522.8019 	DATA 	Keypress: a
+523.1685 	DATA 	Keypress: k
+523.7021 	EXP 	New trial (rep=3, index=12): {'cue1pos': 10, 'cue2lag': 8}
+526.5674 	EXP 	window1: recordFrameIntervals = False
+527.3523 	DATA 	Keypress: i
+527.6686 	DATA 	Keypress: k
+528.2022 	EXP 	New trial (rep=3, index=13): {'cue1pos': 8, 'cue2lag': 8}
+531.0842 	EXP 	window1: recordFrameIntervals = False
+532.1854 	DATA 	Keypress: i
+532.9695 	DATA 	Keypress: h
+533.5019 	EXP 	New trial (rep=3, index=14): {'cue1pos': 6, 'cue2lag': 1}
+536.6009 	EXP 	window1: recordFrameIntervals = False
+537.7360 	DATA 	Keypress: r
+540.1856 	DATA 	Keypress: h
+540.7177 	INFO 	Finishing at 14:44 on 12 Aug 2023
+542.9937 	EXP 	window1: mouseVisible = True
+nDoneMain= 60  trials.nTotal= 60
+Finishing at 14:44 on 12 Aug 2023
+Of 60 trials, on 41.66666666666667% of all trials all targets reported exactly correct
+All targets approximately correct in 81.7% of trials
+T1: 68.33% correct
+T2: 50.0% correct
+T1: 96.67% approximately correct
+T2: 83.33% approximately correct
+T2 for each of the lags, [ 1  2  5  8 10] :  [33.333  0.    50.    91.667 75.   ] %correct, and  [ 75.     83.333  66.667 100.     91.667] %approximately correct
