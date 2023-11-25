@@ -357,16 +357,15 @@ def drawText(color, text):
     letterDraw.draw()
 
 
-def oneFrameOfStim( n,cue,correctAnswers,cueDurFrames,letterDurFrames,ISIframes,cuesPos,lettersDrawObjects,
+def oneFrameOfStim( n,cue, letterSequence, correctAnswers,cueDurFrames,letterDurFrames,ISIframes,cuesPos,lettersDrawObjects,
                      noise,proportnNoise,allFieldCoords,numNoiseDots ):
     #defining a function to draw each frame of stim. So can call second time for tracking task response phase
     SOAframes = letterDurFrames+ISIframes
     cueFrames = cuesPos*SOAframes  #cuesPos is global variable
-
+    letterN = int( np.floor(n/SOAframes) )
     frameOfThisLetter = n % SOAframes #every SOAframes, new letter
     showLetter = frameOfThisLetter < letterDurFrames #if true, it's not time for the blank ISI.  it's still time to draw the letter
     #print 'n=',n,' SOAframes=',SOAframes, ' letterDurFrames=', letterDurFrames, ' (n % SOAframes) =', (n % SOAframes)  #DEBUGOFF
-
     #so that any timing problems occur just as often for every frame, always draw the letter and the cue, but simply draw it in the bgColor when it's not meant to be on
     cue.setLineColor( bgColor )
 
@@ -375,15 +374,12 @@ def oneFrameOfStim( n,cue,correctAnswers,cueDurFrames,letterDurFrames,ISIframes,
     else:
         textColor = bgColor
 
-    text = 'I'
-    while text in ['I', 'O', 'Q', 'S']:
-        text = numberToLetter(np.random.randint(0, 26))
+    text = letterSequence[letterN]
     for id, cueFrame in enumerate(cueFrames): #cheTck whether it's time for any cue
         if n>=cueFrame and n<cueFrame+cueDurFrames:
             cue.setLineColor( bgColor )
             textColor = cueColor
             text = correctAnswers[id]
-            break
 
 
     drawText(textColor, text)
@@ -481,6 +477,13 @@ def do_RSVP_stim(cue1pos, cue2lag, proportnNoise,trialN):
         cuesPos.append(cue1pos+cue2lag)
     cuesPos = np.array(cuesPos)
 
+    def getRandomLetter():
+        text = 'I'
+        while text in ['I', 'O', 'Q', 'S']:
+            text = numberToLetter(np.random.randint(0, 26))
+        return text
+    letterSequence = [getRandomLetter() for _ in range(26)]
+
     correctAnswers = [str(np.random.randint(2, 10))]
     if task == 'T1T2':
         correctAnswers.append(str(np.random.randint(2, 10)))
@@ -513,7 +516,7 @@ def do_RSVP_stim(cue1pos, cue2lag, proportnNoise,trialN):
     t0 = trialClock.getTime()
 
     for n in range(trialDurFrames): #this is the loop for this trial's stimulus!
-        worked = oneFrameOfStim( n,cue,correctAnswers,cueDurFrames,letterDurFrames,ISIframes,cuesPos,lettersDrawObjects,
+        worked = oneFrameOfStim( n,cue, letterSequence, correctAnswers,cueDurFrames,letterDurFrames,ISIframes,cuesPos,lettersDrawObjects,
                                                      noise,proportnNoise,allFieldCoords,numNoiseDots) #draw letter and possibly cue and noise on top
         if exportImages:
             myWin.getMovieFrame(buffer='back') #for later saving
@@ -521,7 +524,7 @@ def do_RSVP_stim(cue1pos, cue2lag, proportnNoise,trialN):
         myWin.flip()
         t=trialClock.getTime()-t0;  ts.append(t);
     #end of big stimulus loop
-    myWin.setRecordFrameIntervals(False)
+    myWin.setRecordFrameIntervals(False);
 
     if task=='T1':
         respPromptStim.setText('Which letter was circled?',log=False)
