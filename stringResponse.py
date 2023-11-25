@@ -56,7 +56,7 @@ def collectStringResponse(numCharsWanted,respPromptStim,respStim,acceptTextStim,
 #                  if key in ['SPACE']: #observer opting out because think they moved their eyes
 #                      passThisTrial = True
 #                      noResponseYet = False
-                elif key in string.ascii_letters:
+                elif key in string.digits and key not in ['0', '1']:
                     noResponseYet = False
                     responses.append(thisResponse)
                     numResponses += 1 #not just using len(responses) because want to work even when autopilot, where thisResponse is null
@@ -108,12 +108,12 @@ def setupSoundsForResponse():
     except:
         print('Could not load the desired click sound file, instead using manually created inferior click')
         try:
-            clickSound=sound.Sound('D',octave=3, sampleRate=22050, secs=0.015, bits=8)
+            clickSound=sound.Sound('D',octave=3, sampleRate=22050, secs=0.015)
         except:
             clickSound = None
             print('Could not create a click sound for typing feedback')
     try:
-        badKeySound = sound.Sound('A',octave=5, sampleRate=22050, secs=0.03, bits=8)
+        badKeySound = sound.Sound('A',octave=5, sampleRate=22050, secs=0.03)
     except:
         badKeySound = None
         print('Could not create an invalid key sound for typing feedback')
