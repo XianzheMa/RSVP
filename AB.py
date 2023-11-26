@@ -486,7 +486,11 @@ def do_RSVP_stim(cue1pos, cue2lag, proportnNoise,trialN):
 
     correctAnswers = [str(np.random.randint(2, 10))]
     if task == 'T1T2':
-        correctAnswers.append(str(np.random.randint(2, 10)))
+        firstAns = int(correctAnswers[0])
+        secondAns = np.random.randint(2, 10)
+        while secondAns == firstAns:
+            secondAns = np.random.randint(2, 10)
+        correctAnswers.append(str(secondAns))
 
     noise = None; allFieldCoords=None; numNoiseDots=0
     if proportnNoise > 0: #generating noise is time-consuming, so only do it once per trial. Then shuffle noise coordinates for each letter
