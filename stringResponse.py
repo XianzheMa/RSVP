@@ -61,6 +61,11 @@ def collectStringResponse(numCharsWanted,respPromptStim,respStim,acceptTextStim,
                     responses.append(thisResponse)
                     numResponses += 1 #not just using len(responses) because want to work even when autopilot, where thisResponse is null
                     click = True
+                elif len(key) == 5 and key[:4] == 'NUM_' and key[4] in string.digits and key[4] not in ['0', '1']:
+                    # small digit keyboard
+                    noResponseYet = False
+                    responses.append(key[4])
+                    numResponses += 1
                 elif key in ['BACKSPACE','DELETE']:
                     if len(responses) >0:
                         responses.pop()
