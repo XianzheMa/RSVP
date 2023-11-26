@@ -114,7 +114,10 @@ def setupSoundsForResponse():
             print('Could not create a click sound for typing feedback')
     try:
         badKeySound = sound.Sound('A',octave=5, sampleRate=22050, secs=0.03)
-    except:
+    except Exception as e:
+        # print exception
+        import traceback
+        print(traceback.print_exc())
         badKeySound = None
         print('Could not create an invalid key sound for typing feedback')
         
